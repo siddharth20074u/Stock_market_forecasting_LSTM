@@ -10,7 +10,7 @@ Created on Wed Oct  7 15:02:16 2020
 
 import pandas_datareader as pdr
 
-df = pdr.get_data_tiingo('AAPL', api_key = '1ba7968e49adf77d4d5ca341d7b2ee024e714cc1')
+df = pdr.get_data_tiingo('AAPL', api_key = '')
 
 df1 =df.reset_index()['close']
 
